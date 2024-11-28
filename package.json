@@ -1,7 +1,11 @@
 {
-  "name": "node-js-proj",
+  "name": "docker-nodejs",
   "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "scripts": {
-    "start": "echo 'Hello, Alexey Nehaenko'"
+    "start": "node index.js"
   }
 }
